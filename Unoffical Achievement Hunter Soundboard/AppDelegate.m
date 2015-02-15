@@ -16,7 +16,70 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    UIPageControl *pageControl = [UIPageControl appearance];
+    pageControl.pageIndicatorTintColor = [UIColor lightGrayColor];
+    pageControl.currentPageIndicatorTintColor = [UIColor blackColor];
+    pageControl.backgroundColor = [UIColor whiteColor];
+    
+    
+    
+    CGSize iOSDeviceScreenSize = [[UIScreen mainScreen] bounds].size;
+    
+    NSLog(@"Size: %fx%f",iOSDeviceScreenSize.width,iOSDeviceScreenSize.height);
+    
+    [[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%f",iOSDeviceScreenSize.width] forKey:@"Width"];
+    [[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%f",iOSDeviceScreenSize.height] forKey:@"Height"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+    
+    
+    if (iOSDeviceScreenSize.height == 480)
+    {
+        // Instantiate a new storyboard object using the storyboard file named Storyboard_iPhone35
+        UIStoryboard *iPhone35Storyboard = [UIStoryboard storyboardWithName:@"iPhone35" bundle:nil];
+        
+        // Instantiate the initial view controller object from the storyboard
+        UIViewController *initialViewController = [iPhone35Storyboard instantiateInitialViewController];
+        
+        // Instantiate a UIWindow object and initialize it with the screen size of the iOS device
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        
+        // Set the initial view controller to be the root view controller of the window object
+        self.window.rootViewController  = initialViewController;
+        
+        // Set the window object to be the key window and show it
+        [self.window makeKeyAndVisible];
+    }
+    
+    else if (iOSDeviceScreenSize.height == 568)
+    {   // iPhone 5 and iPod Touch 5th generation: 4 inch screen
+        // Instantiate a new storyboard object using the storyboard file named Storyboard_iPhone4
+        UIStoryboard *iPhone4Storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        
+        UIViewController *initialViewController = [iPhone4Storyboard instantiateInitialViewController];
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        self.window.rootViewController  = initialViewController;
+        [self.window makeKeyAndVisible];
+    }
+    else if (iOSDeviceScreenSize.height == 667)
+    {
+        UIStoryboard *iPhone4Storyboard = [UIStoryboard storyboardWithName:@"iPhone47" bundle:nil];
+        
+        UIViewController *initialViewController = [iPhone4Storyboard instantiateInitialViewController];
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        self.window.rootViewController  = initialViewController;
+        [self.window makeKeyAndVisible];
+    }else
+    {        UIStoryboard *iPhone4Storyboard = [UIStoryboard storyboardWithName:@"iPhone55" bundle:nil];
+        
+        UIViewController *initialViewController = [iPhone4Storyboard instantiateInitialViewController];
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        self.window.rootViewController  = initialViewController;
+        [self.window makeKeyAndVisible];
+    }
+    
     return YES;
 }
 

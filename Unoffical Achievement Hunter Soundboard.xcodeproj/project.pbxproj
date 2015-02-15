@@ -9,11 +9,73 @@
 /* Begin PBXBuildFile section */
 		A11A2A9A1A8F4C66006F73D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A11A2A991A8F4C66006F73D6 /* main.m */; };
 		A11A2A9D1A8F4C66006F73D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A11A2A9C1A8F4C66006F73D6 /* AppDelegate.m */; };
-		A11A2AA01A8F4C66006F73D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11A2A9F1A8F4C66006F73D6 /* ViewController.m */; };
+		A11A2AA01A8F4C66006F73D6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11A2A9F1A8F4C66006F73D6 /* RootViewController.m */; };
 		A11A2AA31A8F4C66006F73D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AA11A8F4C66006F73D6 /* Main.storyboard */; };
 		A11A2AA51A8F4C66006F73D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AA41A8F4C66006F73D6 /* Images.xcassets */; };
-		A11A2AA81A8F4C66006F73D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AA61A8F4C66006F73D6 /* LaunchScreen.xib */; };
 		A11A2AB41A8F4C66006F73D6 /* Unoffical_Achievement_Hunter_SoundboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A11A2AB31A8F4C66006F73D6 /* Unoffical_Achievement_Hunter_SoundboardTests.m */; };
+		A11A2ABF1A8F4D7C006F73D6 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11A2ABE1A8F4D7C006F73D6 /* PageContentViewController.m */; };
+		A11A2ACA1A8F58BE006F73D6 /* achievement-hunter-intro-its-a-jungle-out-there.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AC31A8F58BE006F73D6 /* achievement-hunter-intro-its-a-jungle-out-there.wav */; };
+		A11A2ACB1A8F58BE006F73D6 /* achievement-hunter-intro-outro-song-full-hd.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AC41A8F58BE006F73D6 /* achievement-hunter-intro-outro-song-full-hd.wav */; };
+		A11A2ACC1A8F58BE006F73D6 /* go-intro.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AC51A8F58BE006F73D6 /* go-intro.wav */; };
+		A11A2ACD1A8F58BE006F73D6 /* lets-build-intro.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AC61A8F58BE006F73D6 /* lets-build-intro.wav */; };
+		A11A2ACE1A8F58BE006F73D6 /* roosterteeth-letsplay-technical-difficulties-music-download-link.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AC71A8F58BE006F73D6 /* roosterteeth-letsplay-technical-difficulties-music-download-link.wav */; };
+		A11A2ACF1A8F58BE006F73D6 /* llletsplay.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AC81A8F58BE006F73D6 /* llletsplay.wav */; };
+		A11A2AD01A8F58BE006F73D6 /* vs.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AC91A8F58BE006F73D6 /* vs.wav */; };
+		A11A2ADF1A8F58C6006F73D6 /* 420-blaze-it.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AD11A8F58C6006F73D6 /* 420-blaze-it.wav */; };
+		A11A2AE01A8F58C6006F73D6 /* 420.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AD21A8F58C6006F73D6 /* 420.wav */; };
+		A11A2AE11A8F58C6006F73D6 /* 1234rayisthewinner.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AD31A8F58C6006F73D6 /* 1234rayisthewinner.wav */; };
+		A11A2AE21A8F58C6006F73D6 /* enderman.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AD41A8F58C6006F73D6 /* enderman.wav */; };
+		A11A2AE31A8F58C6006F73D6 /* flynt-coal 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AD51A8F58C6006F73D6 /* flynt-coal 1.wav */; };
+		A11A2AE41A8F58C6006F73D6 /* goingcakeless.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AD61A8F58C6006F73D6 /* goingcakeless.wav */; };
+		A11A2AE51A8F58C6006F73D6 /* gotem.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AD71A8F58C6006F73D6 /* gotem.wav */; };
+		A11A2AE61A8F58C6006F73D6 /* jbl.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AD81A8F58C6006F73D6 /* jbl.wav */; };
+		A11A2AE71A8F58C6006F73D6 /* jublay.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AD91A8F58C6006F73D6 /* jublay.wav */; };
+		A11A2AE81A8F58C6006F73D6 /* just-blaze.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2ADA1A8F58C6006F73D6 /* just-blaze.wav */; };
+		A11A2AE91A8F58C6006F73D6 /* loud-scream.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2ADB1A8F58C6006F73D6 /* loud-scream.wav */; };
+		A11A2AEA1A8F58C6006F73D6 /* makeitrainroses.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2ADC1A8F58C6006F73D6 /* makeitrainroses.wav */; };
+		A11A2AEB1A8F58C6006F73D6 /* nowayinnowayout.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2ADD1A8F58C6006F73D6 /* nowayinnowayout.wav */; };
+		A11A2AEC1A8F58C6006F73D6 /* smokin-dat-herb.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2ADE1A8F58C6006F73D6 /* smokin-dat-herb.wav */; };
+		A11A2B011A8F58CC006F73D6 /* something-is-going-on-guys.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AED1A8F58CC006F73D6 /* something-is-going-on-guys.wav */; };
+		A11A2B021A8F58CC006F73D6 /* 1-2-3-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AEE1A8F58CC006F73D6 /* 1-2-3-4.wav */; };
+		A11A2B031A8F58CC006F73D6 /* aaah.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AEF1A8F58CC006F73D6 /* aaah.wav */; };
+		A11A2B041A8F58CC006F73D6 /* ah-creeper.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AF01A8F58CC006F73D6 /* ah-creeper.wav */; };
+		A11A2B051A8F58CC006F73D6 /* bloody-heck.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AF11A8F58CC006F73D6 /* bloody-heck.wav */; };
+		A11A2B061A8F58CC006F73D6 /* bollock.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AF21A8F58CC006F73D6 /* bollock.wav */; };
+		A11A2B071A8F58CC006F73D6 /* buggar-my-ass.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AF31A8F58CC006F73D6 /* buggar-my-ass.wav */; };
+		A11A2B081A8F58CC006F73D6 /* but-micheal.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AF41A8F58CC006F73D6 /* but-micheal.wav */; };
+		A11A2B091A8F58CC006F73D6 /* flynt-coal.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AF51A8F58CC006F73D6 /* flynt-coal.wav */; };
+		A11A2B0A1A8F58CC006F73D6 /* frenderman.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AF61A8F58CC006F73D6 /* frenderman.wav */; };
+		A11A2B0B1A8F58CC006F73D6 /* girlyscream.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AF71A8F58CC006F73D6 /* girlyscream.wav */; };
+		A11A2B0C1A8F58CC006F73D6 /* jacks-asshole.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AF81A8F58CC006F73D6 /* jacks-asshole.wav */; };
+		A11A2B0D1A8F58CC006F73D6 /* ringtone.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AF91A8F58CC006F73D6 /* ringtone.wav */; };
+		A11A2B0E1A8F58CC006F73D6 /* rinsy-little-prick.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AFA1A8F58CC006F73D6 /* rinsy-little-prick.wav */; };
+		A11A2B0F1A8F58CC006F73D6 /* run-micheal.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AFB1A8F58CC006F73D6 /* run-micheal.wav */; };
+		A11A2B101A8F58CC006F73D6 /* screen-lookin-prick.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AFC1A8F58CC006F73D6 /* screen-lookin-prick.wav */; };
+		A11A2B111A8F58CC006F73D6 /* tease-it.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AFD1A8F58CC006F73D6 /* tease-it.wav */; };
+		A11A2B121A8F58CC006F73D6 /* who-knicked-my-effin-fish.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AFE1A8F58CC006F73D6 /* who-knicked-my-effin-fish.wav */; };
+		A11A2B131A8F58CC006F73D6 /* why-micheal.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2AFF1A8F58CC006F73D6 /* why-micheal.wav */; };
+		A11A2B141A8F58CC006F73D6 /* wot.wav in Resources */ = {isa = PBXBuildFile; fileRef = A11A2B001A8F58CC006F73D6 /* wot.wav */; };
+		A11A2B161A8F60E0006F73D6 /* RT.png in Resources */ = {isa = PBXBuildFile; fileRef = A11A2B151A8F60E0006F73D6 /* RT.png */; };
+		A11A2B181A8F6106006F73D6 /* AH.png in Resources */ = {isa = PBXBuildFile; fileRef = A11A2B171A8F6106006F73D6 /* AH.png */; };
+		A11A2B1A1A8F6147006F73D6 /* unofficial.png in Resources */ = {isa = PBXBuildFile; fileRef = A11A2B191A8F6147006F73D6 /* unofficial.png */; };
+		A11A2B1C1A8F63D1006F73D6 /* JENKINSV.TTF in Resources */ = {isa = PBXBuildFile; fileRef = A11A2B1B1A8F63B8006F73D6 /* JENKINSV.TTF */; };
+		A11A2B2B1A8F6755006F73D6 /* vs.png in Resources */ = {isa = PBXBuildFile; fileRef = A11A2B1F1A8F6755006F73D6 /* vs.png */; };
+		A11A2B2C1A8F6755006F73D6 /* 420.png in Resources */ = {isa = PBXBuildFile; fileRef = A11A2B201A8F6755006F73D6 /* 420.png */; };
+		A11A2B2D1A8F6755006F73D6 /* frenderman.png in Resources */ = {isa = PBXBuildFile; fileRef = A11A2B211A8F6755006F73D6 /* frenderman.png */; };
+		A11A2B2E1A8F6755006F73D6 /* gavin.png in Resources */ = {isa = PBXBuildFile; fileRef = A11A2B221A8F6755006F73D6 /* gavin.png */; };
+		A11A2B2F1A8F6755006F73D6 /* go-intro.png in Resources */ = {isa = PBXBuildFile; fileRef = A11A2B231A8F6755006F73D6 /* go-intro.png */; };
+		A11A2B301A8F6755006F73D6 /* lets-build-intro.png in Resources */ = {isa = PBXBuildFile; fileRef = A11A2B241A8F6755006F73D6 /* lets-build-intro.png */; };
+		A11A2B311A8F6755006F73D6 /* llletsplay.png in Resources */ = {isa = PBXBuildFile; fileRef = A11A2B251A8F6755006F73D6 /* llletsplay.png */; };
+		A11A2B321A8F6755006F73D6 /* ray.png in Resources */ = {isa = PBXBuildFile; fileRef = A11A2B261A8F6755006F73D6 /* ray.png */; };
+		A11A2B331A8F6755006F73D6 /* roosterteeth-letsplay-technical-difficulties-music-download-link.png in Resources */ = {isa = PBXBuildFile; fileRef = A11A2B271A8F6755006F73D6 /* roosterteeth-letsplay-technical-difficulties-music-download-link.png */; };
+		A11A2B341A8F6755006F73D6 /* achievement-hunter-intro-its-a-jungle-out-there.png in Resources */ = {isa = PBXBuildFile; fileRef = A11A2B281A8F6755006F73D6 /* achievement-hunter-intro-its-a-jungle-out-there.png */; };
+		A11A2B351A8F6755006F73D6 /* achievement-hunter-intro-outro-song-full-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A11A2B291A8F6755006F73D6 /* achievement-hunter-intro-outro-song-full-hd.png */; };
+		A11A2B361A8F6755006F73D6 /* flynt-coal.png in Resources */ = {isa = PBXBuildFile; fileRef = A11A2B2A1A8F6755006F73D6 /* flynt-coal.png */; };
+		A11A2B381A8F75DD006F73D6 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A11A2B371A8F75DD006F73D6 /* arrow.png */; };
+		A15890261A907E9300F9155F /* Rooster_Teeth.png in Resources */ = {isa = PBXBuildFile; fileRef = A15890251A907E9300F9155F /* Rooster_Teeth.png */; };
+		A1D95C541A910C1800230E57 /* iPhone47.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D95C531A910C1800230E57 /* iPhone47.storyboard */; };
+		A1D95C561A910CEE00230E57 /* iPhone55.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D95C551A910CEE00230E57 /* iPhone55.storyboard */; };
+		A1D95C581A910D4E00230E57 /* iPhone35.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D95C571A910D4E00230E57 /* iPhone35.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +94,77 @@
 		A11A2A991A8F4C66006F73D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A11A2A9B1A8F4C66006F73D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A11A2A9C1A8F4C66006F73D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A11A2A9E1A8F4C66006F73D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A11A2A9F1A8F4C66006F73D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A11A2A9E1A8F4C66006F73D6 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A11A2A9F1A8F4C66006F73D6 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		A11A2AA21A8F4C66006F73D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A11A2AA41A8F4C66006F73D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A11A2AA71A8F4C66006F73D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A11A2AAD1A8F4C66006F73D6 /* Unoffical Achievement Hunter SoundboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unoffical Achievement Hunter SoundboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11A2AB21A8F4C66006F73D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A11A2AB31A8F4C66006F73D6 /* Unoffical_Achievement_Hunter_SoundboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Unoffical_Achievement_Hunter_SoundboardTests.m; sourceTree = "<group>"; };
+		A11A2ABD1A8F4D7C006F73D6 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		A11A2ABE1A8F4D7C006F73D6 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		A11A2AC31A8F58BE006F73D6 /* achievement-hunter-intro-its-a-jungle-out-there.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "achievement-hunter-intro-its-a-jungle-out-there.wav"; sourceTree = "<group>"; };
+		A11A2AC41A8F58BE006F73D6 /* achievement-hunter-intro-outro-song-full-hd.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "achievement-hunter-intro-outro-song-full-hd.wav"; sourceTree = "<group>"; };
+		A11A2AC51A8F58BE006F73D6 /* go-intro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "go-intro.wav"; sourceTree = "<group>"; };
+		A11A2AC61A8F58BE006F73D6 /* lets-build-intro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "lets-build-intro.wav"; sourceTree = "<group>"; };
+		A11A2AC71A8F58BE006F73D6 /* roosterteeth-letsplay-technical-difficulties-music-download-link.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "roosterteeth-letsplay-technical-difficulties-music-download-link.wav"; sourceTree = "<group>"; };
+		A11A2AC81A8F58BE006F73D6 /* llletsplay.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = llletsplay.wav; sourceTree = "<group>"; };
+		A11A2AC91A8F58BE006F73D6 /* vs.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = vs.wav; sourceTree = "<group>"; };
+		A11A2AD11A8F58C6006F73D6 /* 420-blaze-it.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "420-blaze-it.wav"; sourceTree = "<group>"; };
+		A11A2AD21A8F58C6006F73D6 /* 420.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 420.wav; sourceTree = "<group>"; };
+		A11A2AD31A8F58C6006F73D6 /* 1234rayisthewinner.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1234rayisthewinner.wav; sourceTree = "<group>"; };
+		A11A2AD41A8F58C6006F73D6 /* enderman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enderman.wav; sourceTree = "<group>"; };
+		A11A2AD51A8F58C6006F73D6 /* flynt-coal 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "flynt-coal 1.wav"; sourceTree = "<group>"; };
+		A11A2AD61A8F58C6006F73D6 /* goingcakeless.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = goingcakeless.wav; sourceTree = "<group>"; };
+		A11A2AD71A8F58C6006F73D6 /* gotem.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gotem.wav; sourceTree = "<group>"; };
+		A11A2AD81A8F58C6006F73D6 /* jbl.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jbl.wav; sourceTree = "<group>"; };
+		A11A2AD91A8F58C6006F73D6 /* jublay.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jublay.wav; sourceTree = "<group>"; };
+		A11A2ADA1A8F58C6006F73D6 /* just-blaze.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "just-blaze.wav"; sourceTree = "<group>"; };
+		A11A2ADB1A8F58C6006F73D6 /* loud-scream.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "loud-scream.wav"; sourceTree = "<group>"; };
+		A11A2ADC1A8F58C6006F73D6 /* makeitrainroses.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = makeitrainroses.wav; sourceTree = "<group>"; };
+		A11A2ADD1A8F58C6006F73D6 /* nowayinnowayout.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nowayinnowayout.wav; sourceTree = "<group>"; };
+		A11A2ADE1A8F58C6006F73D6 /* smokin-dat-herb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "smokin-dat-herb.wav"; sourceTree = "<group>"; };
+		A11A2AED1A8F58CC006F73D6 /* something-is-going-on-guys.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "something-is-going-on-guys.wav"; sourceTree = "<group>"; };
+		A11A2AEE1A8F58CC006F73D6 /* 1-2-3-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "1-2-3-4.wav"; sourceTree = "<group>"; };
+		A11A2AEF1A8F58CC006F73D6 /* aaah.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = aaah.wav; sourceTree = "<group>"; };
+		A11A2AF01A8F58CC006F73D6 /* ah-creeper.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ah-creeper.wav"; sourceTree = "<group>"; };
+		A11A2AF11A8F58CC006F73D6 /* bloody-heck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bloody-heck.wav"; sourceTree = "<group>"; };
+		A11A2AF21A8F58CC006F73D6 /* bollock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bollock.wav; sourceTree = "<group>"; };
+		A11A2AF31A8F58CC006F73D6 /* buggar-my-ass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "buggar-my-ass.wav"; sourceTree = "<group>"; };
+		A11A2AF41A8F58CC006F73D6 /* but-micheal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "but-micheal.wav"; sourceTree = "<group>"; };
+		A11A2AF51A8F58CC006F73D6 /* flynt-coal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "flynt-coal.wav"; sourceTree = "<group>"; };
+		A11A2AF61A8F58CC006F73D6 /* frenderman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = frenderman.wav; sourceTree = "<group>"; };
+		A11A2AF71A8F58CC006F73D6 /* girlyscream.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = girlyscream.wav; sourceTree = "<group>"; };
+		A11A2AF81A8F58CC006F73D6 /* jacks-asshole.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "jacks-asshole.wav"; sourceTree = "<group>"; };
+		A11A2AF91A8F58CC006F73D6 /* ringtone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ringtone.wav; sourceTree = "<group>"; };
+		A11A2AFA1A8F58CC006F73D6 /* rinsy-little-prick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "rinsy-little-prick.wav"; sourceTree = "<group>"; };
+		A11A2AFB1A8F58CC006F73D6 /* run-micheal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "run-micheal.wav"; sourceTree = "<group>"; };
+		A11A2AFC1A8F58CC006F73D6 /* screen-lookin-prick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "screen-lookin-prick.wav"; sourceTree = "<group>"; };
+		A11A2AFD1A8F58CC006F73D6 /* tease-it.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tease-it.wav"; sourceTree = "<group>"; };
+		A11A2AFE1A8F58CC006F73D6 /* who-knicked-my-effin-fish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "who-knicked-my-effin-fish.wav"; sourceTree = "<group>"; };
+		A11A2AFF1A8F58CC006F73D6 /* why-micheal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "why-micheal.wav"; sourceTree = "<group>"; };
+		A11A2B001A8F58CC006F73D6 /* wot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wot.wav; sourceTree = "<group>"; };
+		A11A2B151A8F60E0006F73D6 /* RT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RT.png; sourceTree = "<group>"; };
+		A11A2B171A8F6106006F73D6 /* AH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AH.png; sourceTree = "<group>"; };
+		A11A2B191A8F6147006F73D6 /* unofficial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unofficial.png; sourceTree = "<group>"; };
+		A11A2B1B1A8F63B8006F73D6 /* JENKINSV.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = JENKINSV.TTF; sourceTree = "<group>"; };
+		A11A2B1F1A8F6755006F73D6 /* vs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vs.png; sourceTree = "<group>"; };
+		A11A2B201A8F6755006F73D6 /* 420.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 420.png; sourceTree = "<group>"; };
+		A11A2B211A8F6755006F73D6 /* frenderman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frenderman.png; sourceTree = "<group>"; };
+		A11A2B221A8F6755006F73D6 /* gavin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gavin.png; sourceTree = "<group>"; };
+		A11A2B231A8F6755006F73D6 /* go-intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go-intro.png"; sourceTree = "<group>"; };
+		A11A2B241A8F6755006F73D6 /* lets-build-intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lets-build-intro.png"; sourceTree = "<group>"; };
+		A11A2B251A8F6755006F73D6 /* llletsplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = llletsplay.png; sourceTree = "<group>"; };
+		A11A2B261A8F6755006F73D6 /* ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ray.png; sourceTree = "<group>"; };
+		A11A2B271A8F6755006F73D6 /* roosterteeth-letsplay-technical-difficulties-music-download-link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "roosterteeth-letsplay-technical-difficulties-music-download-link.png"; sourceTree = "<group>"; };
+		A11A2B281A8F6755006F73D6 /* achievement-hunter-intro-its-a-jungle-out-there.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "achievement-hunter-intro-its-a-jungle-out-there.png"; sourceTree = "<group>"; };
+		A11A2B291A8F6755006F73D6 /* achievement-hunter-intro-outro-song-full-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "achievement-hunter-intro-outro-song-full-hd.png"; sourceTree = "<group>"; };
+		A11A2B2A1A8F6755006F73D6 /* flynt-coal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flynt-coal.png"; sourceTree = "<group>"; };
+		A11A2B371A8F75DD006F73D6 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		A15890251A907E9300F9155F /* Rooster_Teeth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rooster_Teeth.png; sourceTree = "<group>"; };
+		A1D95C531A910C1800230E57 /* iPhone47.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone47.storyboard; sourceTree = "<group>"; };
+		A1D95C551A910CEE00230E57 /* iPhone55.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone55.storyboard; sourceTree = "<group>"; };
+		A1D95C571A910D4E00230E57 /* iPhone35.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone35.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +189,11 @@
 			isa = PBXGroup;
 			children = (
 				A11A2A961A8F4C66006F73D6 /* Unoffical Achievement Hunter Soundboard */,
+				A11A2B151A8F60E0006F73D6 /* RT.png */,
+				A11A2B171A8F6106006F73D6 /* AH.png */,
+				A11A2B1B1A8F63B8006F73D6 /* JENKINSV.TTF */,
+				A11A2B371A8F75DD006F73D6 /* arrow.png */,
+				A11A2B191A8F6147006F73D6 /* unofficial.png */,
 				A11A2AB01A8F4C66006F73D6 /* Unoffical Achievement Hunter SoundboardTests */,
 				A11A2A951A8F4C66006F73D6 /* Products */,
 			);
@@ -83,11 +213,15 @@
 			children = (
 				A11A2A9B1A8F4C66006F73D6 /* AppDelegate.h */,
 				A11A2A9C1A8F4C66006F73D6 /* AppDelegate.m */,
-				A11A2A9E1A8F4C66006F73D6 /* ViewController.h */,
-				A11A2A9F1A8F4C66006F73D6 /* ViewController.m */,
+				A11A2A9E1A8F4C66006F73D6 /* RootViewController.h */,
+				A11A2A9F1A8F4C66006F73D6 /* RootViewController.m */,
 				A11A2AA11A8F4C66006F73D6 /* Main.storyboard */,
+				A1D95C531A910C1800230E57 /* iPhone47.storyboard */,
+				A1D95C551A910CEE00230E57 /* iPhone55.storyboard */,
+				A1D95C571A910D4E00230E57 /* iPhone35.storyboard */,
+				A11A2ABD1A8F4D7C006F73D6 /* PageContentViewController.h */,
+				A11A2ABE1A8F4D7C006F73D6 /* PageContentViewController.m */,
 				A11A2AA41A8F4C66006F73D6 /* Images.xcassets */,
-				A11A2AA61A8F4C66006F73D6 /* LaunchScreen.xib */,
 				A11A2A971A8F4C66006F73D6 /* Supporting Files */,
 			);
 			path = "Unoffical Achievement Hunter Soundboard";
@@ -96,8 +230,24 @@
 		A11A2A971A8F4C66006F73D6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A11A2B1F1A8F6755006F73D6 /* vs.png */,
+				A11A2B201A8F6755006F73D6 /* 420.png */,
+				A11A2B211A8F6755006F73D6 /* frenderman.png */,
+				A11A2B221A8F6755006F73D6 /* gavin.png */,
+				A11A2B231A8F6755006F73D6 /* go-intro.png */,
+				A11A2B241A8F6755006F73D6 /* lets-build-intro.png */,
+				A11A2B251A8F6755006F73D6 /* llletsplay.png */,
+				A11A2B261A8F6755006F73D6 /* ray.png */,
+				A11A2B271A8F6755006F73D6 /* roosterteeth-letsplay-technical-difficulties-music-download-link.png */,
+				A11A2B281A8F6755006F73D6 /* achievement-hunter-intro-its-a-jungle-out-there.png */,
+				A11A2B291A8F6755006F73D6 /* achievement-hunter-intro-outro-song-full-hd.png */,
+				A11A2B2A1A8F6755006F73D6 /* flynt-coal.png */,
+				A11A2AC21A8F58B1006F73D6 /* AH */,
+				A11A2AC11A8F58A9006F73D6 /* Gavin */,
+				A11A2AC01A8F58A1006F73D6 /* Ray */,
 				A11A2A981A8F4C66006F73D6 /* Info.plist */,
 				A11A2A991A8F4C66006F73D6 /* main.m */,
+				A15890251A907E9300F9155F /* Rooster_Teeth.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +267,68 @@
 				A11A2AB21A8F4C66006F73D6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A11A2AC01A8F58A1006F73D6 /* Ray */ = {
+			isa = PBXGroup;
+			children = (
+				A11A2AD11A8F58C6006F73D6 /* 420-blaze-it.wav */,
+				A11A2AD21A8F58C6006F73D6 /* 420.wav */,
+				A11A2AD31A8F58C6006F73D6 /* 1234rayisthewinner.wav */,
+				A11A2AD41A8F58C6006F73D6 /* enderman.wav */,
+				A11A2AD51A8F58C6006F73D6 /* flynt-coal 1.wav */,
+				A11A2AD61A8F58C6006F73D6 /* goingcakeless.wav */,
+				A11A2AD71A8F58C6006F73D6 /* gotem.wav */,
+				A11A2AD81A8F58C6006F73D6 /* jbl.wav */,
+				A11A2AD91A8F58C6006F73D6 /* jublay.wav */,
+				A11A2ADA1A8F58C6006F73D6 /* just-blaze.wav */,
+				A11A2ADB1A8F58C6006F73D6 /* loud-scream.wav */,
+				A11A2ADC1A8F58C6006F73D6 /* makeitrainroses.wav */,
+				A11A2ADD1A8F58C6006F73D6 /* nowayinnowayout.wav */,
+				A11A2ADE1A8F58C6006F73D6 /* smokin-dat-herb.wav */,
+			);
+			name = Ray;
+			sourceTree = "<group>";
+		};
+		A11A2AC11A8F58A9006F73D6 /* Gavin */ = {
+			isa = PBXGroup;
+			children = (
+				A11A2AED1A8F58CC006F73D6 /* something-is-going-on-guys.wav */,
+				A11A2AEE1A8F58CC006F73D6 /* 1-2-3-4.wav */,
+				A11A2AEF1A8F58CC006F73D6 /* aaah.wav */,
+				A11A2AF01A8F58CC006F73D6 /* ah-creeper.wav */,
+				A11A2AF11A8F58CC006F73D6 /* bloody-heck.wav */,
+				A11A2AF21A8F58CC006F73D6 /* bollock.wav */,
+				A11A2AF31A8F58CC006F73D6 /* buggar-my-ass.wav */,
+				A11A2AF41A8F58CC006F73D6 /* but-micheal.wav */,
+				A11A2AF51A8F58CC006F73D6 /* flynt-coal.wav */,
+				A11A2AF61A8F58CC006F73D6 /* frenderman.wav */,
+				A11A2AF71A8F58CC006F73D6 /* girlyscream.wav */,
+				A11A2AF81A8F58CC006F73D6 /* jacks-asshole.wav */,
+				A11A2AF91A8F58CC006F73D6 /* ringtone.wav */,
+				A11A2AFA1A8F58CC006F73D6 /* rinsy-little-prick.wav */,
+				A11A2AFB1A8F58CC006F73D6 /* run-micheal.wav */,
+				A11A2AFC1A8F58CC006F73D6 /* screen-lookin-prick.wav */,
+				A11A2AFD1A8F58CC006F73D6 /* tease-it.wav */,
+				A11A2AFE1A8F58CC006F73D6 /* who-knicked-my-effin-fish.wav */,
+				A11A2AFF1A8F58CC006F73D6 /* why-micheal.wav */,
+				A11A2B001A8F58CC006F73D6 /* wot.wav */,
+			);
+			name = Gavin;
+			sourceTree = "<group>";
+		};
+		A11A2AC21A8F58B1006F73D6 /* AH */ = {
+			isa = PBXGroup;
+			children = (
+				A11A2AC31A8F58BE006F73D6 /* achievement-hunter-intro-its-a-jungle-out-there.wav */,
+				A11A2AC41A8F58BE006F73D6 /* achievement-hunter-intro-outro-song-full-hd.wav */,
+				A11A2AC51A8F58BE006F73D6 /* go-intro.wav */,
+				A11A2AC61A8F58BE006F73D6 /* lets-build-intro.wav */,
+				A11A2AC71A8F58BE006F73D6 /* roosterteeth-letsplay-technical-difficulties-music-download-link.wav */,
+				A11A2AC81A8F58BE006F73D6 /* llletsplay.wav */,
+				A11A2AC91A8F58BE006F73D6 /* vs.wav */,
+			);
+			name = AH;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +380,7 @@
 				TargetAttributes = {
 					A11A2A931A8F4C66006F73D6 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 4ETQ767VG2;
 					};
 					A11A2AAC1A8F4C66006F73D6 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -199,9 +412,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11A2B1C1A8F63D1006F73D6 /* JENKINSV.TTF in Resources */,
+				A15890261A907E9300F9155F /* Rooster_Teeth.png in Resources */,
+				A11A2AE91A8F58C6006F73D6 /* loud-scream.wav in Resources */,
+				A11A2B0F1A8F58CC006F73D6 /* run-micheal.wav in Resources */,
+				A11A2B301A8F6755006F73D6 /* lets-build-intro.png in Resources */,
+				A11A2AE31A8F58C6006F73D6 /* flynt-coal 1.wav in Resources */,
+				A11A2B381A8F75DD006F73D6 /* arrow.png in Resources */,
+				A11A2ACB1A8F58BE006F73D6 /* achievement-hunter-intro-outro-song-full-hd.wav in Resources */,
+				A11A2B2E1A8F6755006F73D6 /* gavin.png in Resources */,
+				A11A2B051A8F58CC006F73D6 /* bloody-heck.wav in Resources */,
+				A1D95C581A910D4E00230E57 /* iPhone35.storyboard in Resources */,
+				A11A2AEB1A8F58C6006F73D6 /* nowayinnowayout.wav in Resources */,
+				A11A2AEC1A8F58C6006F73D6 /* smokin-dat-herb.wav in Resources */,
+				A11A2B0E1A8F58CC006F73D6 /* rinsy-little-prick.wav in Resources */,
+				A11A2ACF1A8F58BE006F73D6 /* llletsplay.wav in Resources */,
+				A11A2AE81A8F58C6006F73D6 /* just-blaze.wav in Resources */,
+				A1D95C541A910C1800230E57 /* iPhone47.storyboard in Resources */,
+				A11A2B101A8F58CC006F73D6 /* screen-lookin-prick.wav in Resources */,
+				A11A2ACE1A8F58BE006F73D6 /* roosterteeth-letsplay-technical-difficulties-music-download-link.wav in Resources */,
+				A11A2AE71A8F58C6006F73D6 /* jublay.wav in Resources */,
+				A11A2B071A8F58CC006F73D6 /* buggar-my-ass.wav in Resources */,
+				A11A2B331A8F6755006F73D6 /* roosterteeth-letsplay-technical-difficulties-music-download-link.png in Resources */,
+				A11A2ACD1A8F58BE006F73D6 /* lets-build-intro.wav in Resources */,
+				A1D95C561A910CEE00230E57 /* iPhone55.storyboard in Resources */,
+				A11A2AE51A8F58C6006F73D6 /* gotem.wav in Resources */,
+				A11A2B111A8F58CC006F73D6 /* tease-it.wav in Resources */,
+				A11A2B361A8F6755006F73D6 /* flynt-coal.png in Resources */,
+				A11A2B0C1A8F58CC006F73D6 /* jacks-asshole.wav in Resources */,
 				A11A2AA31A8F4C66006F73D6 /* Main.storyboard in Resources */,
-				A11A2AA81A8F4C66006F73D6 /* LaunchScreen.xib in Resources */,
+				A11A2AE11A8F58C6006F73D6 /* 1234rayisthewinner.wav in Resources */,
+				A11A2B351A8F6755006F73D6 /* achievement-hunter-intro-outro-song-full-hd.png in Resources */,
+				A11A2B161A8F60E0006F73D6 /* RT.png in Resources */,
+				A11A2B131A8F58CC006F73D6 /* why-micheal.wav in Resources */,
+				A11A2B181A8F6106006F73D6 /* AH.png in Resources */,
+				A11A2ADF1A8F58C6006F73D6 /* 420-blaze-it.wav in Resources */,
+				A11A2B0D1A8F58CC006F73D6 /* ringtone.wav in Resources */,
+				A11A2AE61A8F58C6006F73D6 /* jbl.wav in Resources */,
+				A11A2AD01A8F58BE006F73D6 /* vs.wav in Resources */,
 				A11A2AA51A8F4C66006F73D6 /* Images.xcassets in Resources */,
+				A11A2B041A8F58CC006F73D6 /* ah-creeper.wav in Resources */,
+				A11A2B341A8F6755006F73D6 /* achievement-hunter-intro-its-a-jungle-out-there.png in Resources */,
+				A11A2B011A8F58CC006F73D6 /* something-is-going-on-guys.wav in Resources */,
+				A11A2B081A8F58CC006F73D6 /* but-micheal.wav in Resources */,
+				A11A2B061A8F58CC006F73D6 /* bollock.wav in Resources */,
+				A11A2B0A1A8F58CC006F73D6 /* frenderman.wav in Resources */,
+				A11A2AE21A8F58C6006F73D6 /* enderman.wav in Resources */,
+				A11A2B321A8F6755006F73D6 /* ray.png in Resources */,
+				A11A2B141A8F58CC006F73D6 /* wot.wav in Resources */,
+				A11A2AE41A8F58C6006F73D6 /* goingcakeless.wav in Resources */,
+				A11A2B2F1A8F6755006F73D6 /* go-intro.png in Resources */,
+				A11A2B091A8F58CC006F73D6 /* flynt-coal.wav in Resources */,
+				A11A2B2B1A8F6755006F73D6 /* vs.png in Resources */,
+				A11A2B2C1A8F6755006F73D6 /* 420.png in Resources */,
+				A11A2B2D1A8F6755006F73D6 /* frenderman.png in Resources */,
+				A11A2AE01A8F58C6006F73D6 /* 420.wav in Resources */,
+				A11A2ACA1A8F58BE006F73D6 /* achievement-hunter-intro-its-a-jungle-out-there.wav in Resources */,
+				A11A2B1A1A8F6147006F73D6 /* unofficial.png in Resources */,
+				A11A2AEA1A8F58C6006F73D6 /* makeitrainroses.wav in Resources */,
+				A11A2B0B1A8F58CC006F73D6 /* girlyscream.wav in Resources */,
+				A11A2B031A8F58CC006F73D6 /* aaah.wav in Resources */,
+				A11A2B311A8F6755006F73D6 /* llletsplay.png in Resources */,
+				A11A2B021A8F58CC006F73D6 /* 1-2-3-4.wav in Resources */,
+				A11A2B121A8F58CC006F73D6 /* who-knicked-my-effin-fish.wav in Resources */,
+				A11A2ACC1A8F58BE006F73D6 /* go-intro.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +493,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11A2AA01A8F4C66006F73D6 /* ViewController.m in Sources */,
+				A11A2AA01A8F4C66006F73D6 /* RootViewController.m in Sources */,
+				A11A2ABF1A8F4D7C006F73D6 /* PageContentViewController.m in Sources */,
 				A11A2A9D1A8F4C66006F73D6 /* AppDelegate.m in Sources */,
 				A11A2A9A1A8F4C66006F73D6 /* main.m in Sources */,
 			);
@@ -250,14 +525,6 @@
 				A11A2AA21A8F4C66006F73D6 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A11A2AA61A8F4C66006F73D6 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A11A2AA71A8F4C66006F73D6 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -297,7 +564,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -332,7 +599,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -343,7 +610,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Unoffical Achievement Hunter Soundboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +623,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Unoffical Achievement Hunter Soundboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +685,7 @@
 				A11A2AB91A8F4C66006F73D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A11A2ABA1A8F4C66006F73D6 /* Build configuration list for PBXNativeTarget "Unoffical Achievement Hunter SoundboardTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +694,7 @@
 				A11A2ABC1A8F4C66006F73D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
